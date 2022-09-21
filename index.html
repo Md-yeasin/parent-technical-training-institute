@@ -14,12 +14,13 @@
 </head>
 <body>
     <header>
-        
+        <!--Top Header-->
         <div class="container-fluid top-header-bg">
             <div class="container">
                 <div class="row top-header-inner d-flex align-items-center m-0">
-                    <div class="col brand-name"><h2>Parent Technical Training Institute</h2></div>
-                    <div class="col social-icon">
+                    <div class=" d-col-none col-lg-6 col-sm-7 brand-name  d-sm-none d-md-block "><h2>Parent Technical Training Institute</h2></div>
+                    <div class="col col-lg-6 col-sm-7 m-brand-name d-sm-block d-md-none"><h4>Parent Technical Training Institute</h4></div>
+                    <div class="col col-md-5 col-sm-5 social-icon">
                         <i class="fa-brands fa-facebook"></i>
                         <i class="fa-brands fa-youtube"></i>
                         <i class="fa-brands fa-instagram"></i>
@@ -30,13 +31,17 @@
                 </div>
             </div>
         </div>
+
+    <!--Navigation bar-->
         <nav class=" container-fluid navbar navbar-expand-lg navbar-bg">
-            <div class="container">
+            <div class="container px-4">
               <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="Brand"></a>
+              
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+              <div class="py-3 collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -87,28 +92,32 @@
           </nav>
     
     </header>
+
     <main>
+      <!--Gellary/Slider-->
         <div class="container-fluid d-flex align-items-center " id="slider">
             <div class="container">
                 <div class="row slider-inner">
-                    <div class="col align-self-center">
-                        <h1>সঠিক জায়গায় সময় ব্যয় করুন,<br>নিজের প্রতিভা বিকাশ করুন!</h1>
-                        <p>পছন্দের ক্যারিয়ার ট্র্যাক প্রোগ্রামে ভর্তি হয়ে বর্তমান সময়ের সবচেয়ে গুরুত্বপুর্ণ দক্ষতাগুলো অর্জন করুন।</p>
+                    <div class="py-4 col col-md-6 col-sm-12 align-self-center">
+                        <h1 class="d-md-none d-lg-block slider-heading">সঠিক জায়গায় সময় ব্যয় করুন,<br>নিজের প্রতিভা বিকাশ করুন!</h1>
+                        <h5 class="d-lg-none d-sm-none d-md-block slider-heading">সঠিক জায়গায় সময় ব্যয় করুন,<br>নিজের প্রতিভা বিকাশ করুন!</h5>
+                        <p>সময়ের চাহিদার সাথে নিজেকে সম্বনয় করুন, কর্ম তোমাকে খুজবে!</p>
                         <button class="common-btn">কোর্সসমূহ দেখুন</button>
                     </div>
-                    <div class="col model-image d-flex justify-content-center">
-                        <img src="/img/model.png" alt="model-image">
+                    <div class="col col-md-6 col-sm-12 py-4 model-image d-flex justify-content-center">
+                        <img src="/img/gellary.jpg" alt="model-image">
                     </div>
                 </div>
             </div>
         </div>
+        <!--Our Tutorial-->
     <section id="our-tutorial">
       <div class="container-fluid">
         <div class="container">
           <h2 class="card-header">জনপ্রিয় ভিড়িও টিউটরিয়ালসমূহ</h2>
             <div class="row">
-                <div class="col">
-                  <div class="card" style="width: 18rem;">
+                <div class="my-2 col col-sm-12 col-md-6 col-lg-3">
+                  <div class="card">
                     <img src="/img/card-1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Microsoft Word</h5>
@@ -117,8 +126,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card" style="width: 18rem;">
+                <div class="my-2 col col-sm-12 col-md-6 col-lg-3">
+                  <div class="card" >
                     <img src="/img/card-1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Microsoft Excel</h5>
@@ -127,8 +136,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card" style="width: 18rem;">
+                <div class="my-2 col col-sm-12 col-md-6 col-lg-3">
+                  <div class="card" >
                     <img src="/img/card-1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Microsoft PowerPoint</h5>
@@ -137,8 +146,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card" style="width: 18rem;">
+                <div class="my-2 col col-sm-12 col-md-6 col-lg-3">
+                  <div class="card">
                     <img src="/img/card-1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Adobe Photoshop</h5>
@@ -152,15 +161,16 @@
         </div>
     </div>
   </section>
+
     <!--Testimonial-->
   <section id="testimonial">
     <div class="container-fluid">
       <div class="container">
           <div class="row">
-              <h2 class="card-header">ছাত্রদের মতামত</h2>
+              <h2 class="card-header">শিক্ষার্থীদের মন্তব্য</h2>
               <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col">
                         <div id="testimonial-slider" class="owl-carousel">
                             <div class="testimonial">
                                 <div class="pic">
@@ -215,13 +225,13 @@
     <div class="container-fluid">
         <div class="container">
             <div class="row d-flex align-items-center">
-              <div class="col">
+              <div class="col col-sm-6 col-md-4">
                 <p>Copyright © 2022 - Parent Technical Training Institute.</p>
               </div>
-              <div class="col d-flex justify-content-center ">
-                <img class="navbar-brand" src="/img/logo.svg" alt="">
+              <div class="col col-md-4 d-md-flex justify-content-center d-sm-none d-md-block ">
+                <img  class="navbar-brand " src="/img/logo.svg" alt="">
               </div>
-              <div class="col">
+              <div class="col col-sm-6 col-md-4">
                 <div class="col social-icon">
                   <i class="fa-brands fa-facebook"></i>
                   <i class="fa-brands fa-youtube"></i>

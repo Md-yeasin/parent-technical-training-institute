@@ -12,6 +12,10 @@ p,h1,h2,h3,h4,h5,h6{
     padding: 0;
     margin: 0;
 }
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
 
 .top-header-bg{
     background-color: #27aae1;
@@ -37,16 +41,16 @@ p,h1,h2,h3,h4,h5,h6{
 }
 
 .navbar-bg{
-    background-color: #36367a;
-    color: #fff;
+    background-color: #e6edf3;
+    color: #27aae1;
 }
 #navbarSupportedContent ul li a{
-    color: #fff;
+    color: #27aae1;
     font-size: 18px;
     font-weight: 600;
 }
 #navbarSupportedContent ul li ul li a{
-    color: #354895;
+    color: #27aae1;
     font-size: 18px;
     font-weight: 600;
 }
@@ -55,6 +59,13 @@ p,h1,h2,h3,h4,h5,h6{
     height: auto;
     padding: 0px;
     margin-right: 30px;
+}
+.navbar-toggler{
+    background-color: #27aae1;
+    color: #fff;
+}
+span.navbar-toggler-icon{
+    color: #fff;
 }
 /* All buttons*/
 .common-btn{
@@ -88,12 +99,13 @@ p,h1,h2,h3,h4,h5,h6{
 /*Slider*/
 #slider{
     background-color: #354895;
-    height: 83vh;
+    padding: 5% 0%;
 }
-.slider-inner h1{
+.slider-inner .slider-heading{
     font-weight: 700;
     color: #fff;
     margin-bottom: 30px;
+    line-height: 1.5;
 }
 .slider-inner p{
     font-size: 22px;
@@ -102,10 +114,10 @@ p,h1,h2,h3,h4,h5,h6{
     margin-bottom: 30px;
 }
 .model-image img{
-    width: 600px;
+    width: 100%;
     height: auto;
     position: relative;
-    top: 48px;
+
 }
 
 /*Tutorial section*/
@@ -114,6 +126,7 @@ p,h1,h2,h3,h4,h5,h6{
     background-color: #f2f5f9;
 }
 .card-header{
+    color: #27aae1;
     font-weight: 700;
     padding: 30px 0px;
 }
@@ -237,3 +250,30 @@ p,h1,h2,h3,h4,h5,h6{
     padding: 10px 0px;
     color: #fff;
 }
+
+
+/*media query for mobile*/
+@media only screen and (max-width: 767px) {
+    body {
+    }
+    .brand-name{
+       display: none;
+    }
+    .m-brand-name{
+        padding: 5px 0px 4px 0px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 700;
+    }
+    .top-header-inner .social-icon{
+        padding: 0%;
+    }
+    .top-header-inner .social-icon .fa-brands{
+        padding: 0px 3px;
+        font-size: 18px;
+    }
+    .card-header{
+        text-align: center;
+    }
+  }
