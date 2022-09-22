@@ -117,6 +117,8 @@ span.navbar-toggler-icon{
     width: 100%;
     height: auto;
     position: relative;
+    border: 3px solid #27aae1;
+    border-radius: 25px 0px;
 
 }
 
@@ -132,6 +134,10 @@ span.navbar-toggler-icon{
 }
 .card-title{
     padding: 5px 0px;
+    font-weight: 600;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    color: #27aae1;
 }
 .card-text{
     padding: 10px 0px;
@@ -164,13 +170,13 @@ span.navbar-toggler-icon{
     padding: 85px 50px 45px 70px;
     margin: 70px 15px 35px;
     background: #f9f9f9;
-    box-shadow: 8px 4px 0 0 #77a9dd;
+    box-shadow: 8px 4px 0 0 #27aae1;
     position: relative;
 }
 .testimonial .pic{
     width: 120px;
     height: 120px;
-    border: 5px solid #77a9dd;
+    border: 5px solid #27aae1;
     margin: 0 auto;
     position: absolute;
     top: -60px;
@@ -192,7 +198,7 @@ span.navbar-toggler-icon{
     content: "\f10d";
     font-family: "FontAwesome";
     font-size: 32px;
-    color: #77a9dd;
+    color: #27aae1;
     position: absolute;
     top: -15px;
     left: -35px;
@@ -205,7 +211,7 @@ span.navbar-toggler-icon{
     content: "";
     width: 50px;
     height: 2px;
-    background: #77a9dd;
+    background: #27aae1;
     margin: 0 auto;
     position: absolute;
     bottom: -10px;
@@ -236,7 +242,7 @@ span.navbar-toggler-icon{
 }
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
-    background: #77a9dd;
+    background: #27aae1;
 }
 .owl-theme .owl-controls .owl-page.active span{
     width: 22px;
@@ -245,7 +251,7 @@ span.navbar-toggler-icon{
 
 
 /*footer*/
-#footer{
+.footer{
     background-color: #354895;
     padding: 10px 0px;
     color: #fff;
@@ -253,9 +259,7 @@ span.navbar-toggler-icon{
 
 
 /*media query for mobile*/
-@media only screen and (max-width: 767px) {
-    body {
-    }
+@media only screen and (max-width: 768px) {
     .brand-name{
        display: none;
     }
@@ -276,4 +280,52 @@ span.navbar-toggler-icon{
     .card-header{
         text-align: center;
     }
+    .card-title{
+        text-align: center;
+    }
+    .card-text{
+        padding: 5px 0px;
+    }
   }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 575px) {
+    .brand-name{
+        display: none;
+     }
+     .m-brand-name{
+         padding: 5px 0px 4px 0px;
+         color: #fff;
+         text-transform: uppercase;
+         font-family: 'Bebas Neue', cursive;
+         font-weight: 700;
+     }
+     .top-header-inner .social-icon{
+         padding: 0%;
+     }
+     .top-header-inner .social-icon .fa-brands{
+         padding: 0px 3px;
+         font-size: 18px;
+     }
+     .card-header{
+         text-align: center;
+     }
+     .card-title{
+         text-align: center;
+     }
+     .card-text{
+         padding: 5px 0px;
+     }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
