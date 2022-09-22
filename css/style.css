@@ -95,6 +95,22 @@ span.navbar-toggler-icon{
     font-size: 18px;
     border: none;
 }
+.full-btn{
+    width: 100%;
+    background-color: #27aae1;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 2px solid #fff;
+}
+.full-btn:hover{
+    background-color: #fff;
+    color: #27aae1;
+    border: 2px solid #27aae1;
+}
+
 
 /*Slider*/
 #slider{
@@ -141,21 +157,6 @@ span.navbar-toggler-icon{
 }
 .card-text{
     padding: 10px 0px;
-}
-.full-btn{
-    width: 100%;
-    background-color: #27aae1;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px 15px 10px 15px;
-    border-radius: 5px;
-    font-weight: 600;
-    border: 2px solid #fff;
-}
-.full-btn:hover{
-    background-color: #fff;
-    color: #27aae1;
-    border: 2px solid #27aae1;
 }
 
 /*Testimonial*/
@@ -294,11 +295,11 @@ span.navbar-toggler-icon{
         display: none;
      }
      .m-brand-name{
-         padding: 5px 0px 4px 0px;
+         padding: 4px 0px 3px 0px;
          color: #fff;
          text-transform: uppercase;
          font-family: 'Bebas Neue', cursive;
-         font-weight: 700;
+         font-weight: 600;
      }
      .top-header-inner .social-icon{
          padding: 0%;
@@ -314,8 +315,36 @@ span.navbar-toggler-icon{
          text-align: center;
      }
      .card-text{
-         padding: 5px 0px;
+         padding: 3px 0px;
      }
+     .slider-inner .slider-heading{
+        color: #fff;
+        margin-bottom: 30px;
+        line-height: 1.4;
+        text-align: center;
+    }
+    .slider-inner p{
+        font-size: 22px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .common-btn{
+        width: 100%;
+        background-color: #27aae1;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 15px 10px 15px;
+        border-radius: 5px;
+        font-weight: 600;
+        border: 2px solid #fff;
+    }
+    .common-btn:hover{
+        background-color: #fff;
+        color: #27aae1;
+        border: 2px solid #27aae1;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
