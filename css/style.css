@@ -271,6 +271,10 @@ span.navbar-toggler-icon{
         font-family: 'Bebas Neue', cursive;
         font-weight: 700;
     }
+    .sm-navbar-brand{
+        display: flex;
+        justify-self: center;
+    }
     .top-header-inner .social-icon{
         padding: 0%;
     }
@@ -290,7 +294,7 @@ span.navbar-toggler-icon{
   }
 
   /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 576px) {
     .brand-name{
         display: none;
      }
@@ -310,6 +314,8 @@ span.navbar-toggler-icon{
      }
      .card-header{
          text-align: center;
+         font-weight: 500;
+        padding: 20px 0px;
      }
      .card-title{
          text-align: center;
